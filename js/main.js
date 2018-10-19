@@ -1,6 +1,8 @@
-let n = 133;
+let number = 166;
 
-    if (n < 100) {
+function printN(n) {
+    
+   if (n < 100) {
         console.log('Liczba nie znajduje się w przedziale');
     }
     
@@ -9,6 +11,7 @@ let n = 133;
 }
 else{
     console.log('Liczba znajduje się w przedziale');
-} 
-
+}
     
+}
+printN(number);
